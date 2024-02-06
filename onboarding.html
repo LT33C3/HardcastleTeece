@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hardcastle Teece</title>
+  <link rel="stylesheet" href="onboarding.css">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">
+      <img src="logo.png" alt="Hardcastle Teece Logo">
+    </a>
+    <h1></h1>
+  </header>
+
+  <nav class="menu">
+    <ul>
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="onboarding.html">Onboarding</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>Personal Information:</h2>
+    <label for="full-name">Full Name:</label>
+    <input type="text" id="full-name" name="full-name" required><br>
+
+    <label for="date-of-birth">Date of Birth:</label>
+    <input type="date" id="date-of-birth" name="date-of-birth" required><br>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+      <option value="">Select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br>
+
+    <label for="nationality">Nationality:</label>
+    <input type="text" id="nationality" name="nationality" required><br>
+
+    <label for="contact-details">Contact Details:</label>
+    <textarea id="contact-details" name="contact-details" required></textarea><br>
+
+    <h2>Company Information (if applicable):</h2>
+    <label for="company-name">Company Name:</label>
+    <input type="text" id="company-name" name="company-name"><br>
+
+    <label for="registered-address">Registered Address:</label>
+    <textarea id="registered-address" name="registered-address"></textarea><br>
+
+    <label for="company-number">Company Number:</label>
+    <input type="text" id="company-number" name="company-number"><br>
+
+    <h2>Tax Details:</h2>
+    <label for="national-insurance-number">National Insurance Number:</label>
+    <input type="text" id="national-insurance-number" name="national-insurance-number"><br>
+
+    <label for="utr-number">Unique Taxpayer Reference (UTR) Number:</label>
+    <input type="text" id="utr-number" name="utr-number"><br>
+
+    <label for="vat-registration-number">VAT Registration Number:</label>
+    <input type="text" id="vat-registration-number" name="vat-registration-number"><br>
+
+    <label for="paye-reference">PAYE Reference:</label>
+    <input type="text" id="paye-reference" name="paye-reference"><br>
+
+    <h2>Business Structure (if applicable):</h2>
+    <label for="business-structure">Business Structure:</label>
+    <input type="text" id="business-structure" name="business-structure"><br>
+
+    <label for="business-establishment-date">Date of Business Establishment:</label>
+    <input type="date" id="business-establishment-date" name="business-establishment-date"><br>
+
+    <label for="business-activities">Business Activities:</label>
+    <textarea id="business-activities" name="business-activities"></textarea><br>
+
+    <h2>Previous Accountant Details (if applicable):</h2>
+    <label for="previous-accountant-name">Name of Previous Accountant or Accounting Firm:</label>
+    <input type="text" id="previous-accountant-name" name="previous-accountant-name"><br>
+
+    <label for="previous-accountant-contact">Contact Details of Previous Accountant:</label>
+    <textarea id="previous-accountant-contact" name="previous-accountant-contact"></textarea><br>
+
+    <h2>Financial Information:</h2>
+    <label for="bank-account-details">Bank Account Details:</label>
+    <input type="text" id="bank-account-details" name="bank-account-details"><br>
+
+    <label for="preferred-payment-method">Preferred Payment Method:</label>
+    <input type="text" id="preferred-payment-method" name="preferred-payment-method"><br>
+
+    <h2>Additional Documentation:</h2>
+    <label for="identification-documents">Identification Documents (e.g., passport, driver's license):</label>
+    <input type="file" id="identification-documents" name="identification-documents"><br>
+
+    <label for="proof-of-address">Proof of Address (e.g., utility bill, bank statement):</label>
+    <input type="file" id="proof-of-address" name="proof-of-address"><br>
+
+    <label for="business-registration-documents">Business Registration Documents (for companies):</label>
+    <input type="file" id="business-registration-documents" name="business-registration-documents"><br>
+
+
+    <h2>Services Required:</h2>
+    <label for="specific-services-required">Specific Accounting Services Required (e.g., bookkeeping, tax preparation, payroll):</label>
+    <textarea id="specific-services-required" name="specific-services-required"></textarea><br>
+
+    <label for="service-frequency">Frequency of Services (monthly, quarterly, annually):</label>
+    <input type="text" id="service-frequency" name="service-frequency"><br>
+
+    <h2>Declaration and Consent:</h2>
+    <label for="confirmation-of-accuracy">Confirmation of Accuracy of Provided Information:</label>
+    <input type="checkbox" id="confirmation-of-accuracy" name="confirmation-of-accuracy" required><br>
+
+    <label for="consent-act-on-behalf">Consent for the Accountant to Act on Behalf of the Client:</label>
+    <input type="checkbox" id="consent-act-on-behalf" name="consent-act-on-behalf" required><br>
+
+    <label for="consent-communicate-authorities">Consent for the Accountant to Communicate with HM Revenue and Customs (HMRC) or Other Relevant Authorities:</label>
+    <input type="checkbox" id="consent-communicate-authorities" name="consent-communicate-authorities" required><br>
+
+    <h2>Terms and Conditions:</h2>
+    <p>Details of engagement terms, including fees, billing, and any other relevant policies.</p>
+    <!-- Add relevant terms and conditions content here -->
+
+    <a href="form.html" class="button">Submit</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

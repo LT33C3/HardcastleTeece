@@ -1,0 +1,75 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Merged CSS code */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #003333; /* Deep teal color */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; /* White color */
+  animation: fadeIn 1s ease-in-out; /* Add animation property */
+}
+
+/* CSS for the menu buttons */
+.menu {
+  background-color: #003333; /* Deep teal color */
+  padding: 10px 0;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.menu li {
+  margin: 0 10px;
+  animation: fadeIn 1s ease-in-out; /* Add animation property */
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #fff; /* White text color */
+}
+
+.menu a:hover {
+  background-color: #d3d3d3;
+}
+
+/* Logo style */
+.logo {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff; /* White text color */
+  font-weight: bold;
+  background-color: #003333; /* Deep teal color */
+  padding: 10px;
+  animation: fadeIn 1s ease-in-out; /* Add animation property */
+}
+
+.logo img {
+  max-width: 300px; /* Adjust the logo size as needed */
+  height: auto;
+  animation: fadeIn 1s ease-in-out; /* Add animation property */
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">
+      <img src="logo.png" alt="Logo">
+    </h1>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <h2>Login</h2>
+    <form action="login.php" method="POST">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <br><br>
+      <input type="submit" value="Login" class="button">
+    </form>
+    
+    <hr>
+    
+    <h2>Create an Account</h2>
+    <form action="register.php" method="POST">
+      <label for="reg_username">Username:</label>
+      <input type="text" id="reg_username" name="reg_username" required>
+      <br><br>
+      <label for="reg_password">Password:</label>
+      <input type="password" id="reg_password" name="reg_password" required>
+      <br><br>
+      <input type="submit" value="Register" class="button">
+    </form>
+    
+    <hr>
+    
+    <h2>Account Recovery</h2>
+    <form action="recover.php" method="POST">
+      <label for="recovery_email">Email:</label>
+      <input type="email" id="recovery_email" name="recovery_email" required>
+      <br><br>
+      <input type="submit" value="Recover Account" class="button">
+    </form>
+  </div>
+</body>
+</html>
